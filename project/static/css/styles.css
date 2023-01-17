@@ -3043,15 +3043,15 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #C8304B;
   border-color: #C8304B;
-  box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5);
+  box-shadow: 0 0 0 0.25rem #C8304B;
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
   background-color: #C8304B;
-  border-color: #bf9600;
+  border-color: #C4EBF1;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5);
+  box-shadow: 0 0 0 0.25rem #C4EBF1;
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
@@ -3163,15 +3163,15 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #C8304B;
   border-color: #C8304B;
-  box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5);
+  box-shadow: 0 0 0 0.25rem #C8304B;
 }
 .btn-check:checked + .btn-warning, .btn-check:active + .btn-warning, .btn-warning:active, .btn-warning.active, .show > .btn-warning.dropdown-toggle {
   color: #fff;
   background-color: #C8304B;
-  border-color: #bf9600;
+  border-color: #C8304B;
 }
 .btn-check:checked + .btn-warning:focus, .btn-check:active + .btn-warning:focus, .btn-warning:active:focus, .btn-warning.active:focus, .show > .btn-warning.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5);
+  box-shadow: 0 0 0 0.25rem #C8304B;
 }
 .btn-warning:disabled, .btn-warning.disabled {
   color: #fff;
@@ -11341,7 +11341,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: #C4EBF1;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11367,7 +11367,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #C8304B;
+  color: #000;
 }
 
 @media (min-width: 992px) {
@@ -11389,7 +11389,7 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: #C8304B;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
